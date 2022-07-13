@@ -12,141 +12,141 @@ function ToppingForm(props) {
   return (
     <>
       <h1>
-        <label htmlFor="toppings">Toppings</label>
+        <label htmlFor='toppings'>Toppings</label>
       </h1>
-      <div className="inline fields ui centered grid">
-        <div className="field">
-          <div className="ui checkbox">
+      <div className='inline fields ui centered grid'>
+        <div className='field'>
+          <div className='ui checkbox'>
             <input
-              id="mild"
-              type="checkbox"
-              value="Mild Hot Sauce"
-              name="toppings"
+              id='mild'
+              type='checkbox'
+              value='Mild Hot Sauce'
+              name='toppings'
               checked={props.toppings.includes("Mild Hot Sauce")}
-              onChange={props.handleChange}
+              onChange={props.handleOnChange}
             />
-            <img src={mild} height="100px" width="100px" alt="mild hot sauce" />
-            <label htmlFor="mild">Mild Hot Sauce</label>
+            <img src={mild} height='100px' width='100px' alt='mild hot sauce' />
+            <label htmlFor='mild'>Mild Hot Sauce</label>
           </div>
         </div>
 
-        <div className="field">
-          <div className="ui checkbox">
+        <div className='field'>
+          <div className='ui checkbox'>
             <input
-              id="medium"
-              type="checkbox"
-              value="Medium Hot Sauce"
-              name="toppings"
+              id='medium'
+              type='checkbox'
+              value='Medium Hot Sauce'
+              name='toppings'
               checked={props.toppings.includes("Medium Hot Sauce")}
-              onChange={props.handleChange}
+              onChange={props.handleOnChange}
             />
             <img
               src={medium}
-              height="100px"
-              width="100px"
-              alt="medium hot sauce"
+              height='100px'
+              width='100px'
+              alt='medium hot sauce'
             />
-            <label htmlFor="medium">Medium Hot Sauce</label>
+            <label htmlFor='medium'>Medium Hot Sauce</label>
           </div>
         </div>
 
-        <div className="field">
-          <div className="ui checkbox">
+        <div className='field'>
+          <div className='ui checkbox'>
             <input
-              id="hot"
-              type="checkbox"
-              value="HOT Hot Sauce"
-              name="toppings"
+              id='hot'
+              type='checkbox'
+              value='HOT Hot Sauce'
+              name='toppings'
               checked={props.toppings.includes("HOT Hot Sauce")}
-              onChange={props.handleChange}
+              onChange={props.handleOnChange}
             />
-            <img src={hot} height="100px" width="100px" alt="hot sauce" />
-            <label htmlFor="hot">HOT Hot Sauce</label>
+            <img src={hot} height='100px' width='100px' alt='hot sauce' />
+            <label htmlFor='hot'>HOT Hot Sauce</label>
           </div>
         </div>
 
-        <div className="field">
-          <div className="ui checkbox">
+        <div className='field'>
+          <div className='ui checkbox'>
             <input
-              id="corn"
-              type="checkbox"
-              value="Corn Salsa"
-              name="toppings"
+              id='corn'
+              type='checkbox'
+              value='Corn Salsa'
+              name='toppings'
               checked={props.toppings.includes("Corn Salsa")}
-              onChange={props.handleChange}
+              onChange={props.handleOnChange}
             />
             <img
               src={cornSalsa}
-              height="100px"
-              width="100px"
-              alt="corn salsa"
+              height='100px'
+              width='100px'
+              alt='corn salsa'
             />
-            <label htmlFor="corn">Corn Salsa</label>
+            <label htmlFor='corn'>Corn Salsa</label>
           </div>
         </div>
 
-        <div className="field">
-          <div className="ui checkbox">
+        <div className='field'>
+          <div className='ui checkbox'>
             <input
-              id="sour cream"
-              type="checkbox"
-              value="Sour Cream"
-              name="toppings"
+              id='sour cream'
+              type='checkbox'
+              value='Sour Cream'
+              name='toppings'
               checked={props.toppings.includes("Sour Cream")}
-              onChange={props.handleChange}
+              onChange={props.handleOnChange}
             />
             <img
               src={sourCream}
-              height="100px"
-              width="100px"
-              alt="sour cream"
+              height='100px'
+              width='100px'
+              alt='sour cream'
             />
-            <label htmlFor="sour cream">Sour Cream</label>
+            <label htmlFor='sour cream'>Sour Cream</label>
           </div>
         </div>
 
-        <div className="field">
-          <div className="ui checkbox">
+        <div className='field'>
+          <div className='ui checkbox'>
             <input
-              id="lettuce"
-              type="checkbox"
-              value="Lettuce"
-              name="toppings"
+              id='lettuce'
+              type='checkbox'
+              value='Lettuce'
+              name='toppings'
               checked={props.toppings.includes("Lettuce")}
-              onChange={props.handleChange}
+              onChange={props.handleOnChange}
             />
-            <img src={lettuce} height="100px" width="100px" alt="lettuce" />
-            <label htmlFor="lettuce">Lettuce</label>
+            <img src={lettuce} height='100px' width='100px' alt='lettuce' />
+            <label htmlFor='lettuce'>Lettuce</label>
           </div>
         </div>
 
-        <div className="field">
-          <div className="ui checkbox">
+        <div className='field'>
+          <div className='ui checkbox'>
             <input
-              id="guac"
-              type="checkbox"
-              value="Guac"
-              name="toppings"
+              id='guac'
+              type='checkbox'
+              value='Guac'
+              name='toppings'
               checked={props.toppings.includes("Guac")}
-              onChange={props.handleChange}
+              onChange={props.handleOnChange}
             />
-            <img src={guac} height="100px" width="100px" alt="guacamole" />
-            <label htmlFor="guac">Guac</label>
+            <img src={guac} height='100px' width='100px' alt='guacamole' />
+            <label htmlFor='guac'>Guac</label>
           </div>
         </div>
 
-        <div className="field">
-          <div className="ui checkbox">
+        <div className='field'>
+          <div className='ui checkbox'>
             <input
-              id="cheese"
-              type="checkbox"
-              value="Cheese"
-              name="toppings"
+              id='cheese'
+              type='checkbox'
+              value='Cheese'
+              name='toppings'
               checked={props.toppings.includes("Cheese")}
-              onChange={props.handleChange}
+              onChange={props.handleOnChange}
             />
-            <img src={cheese} height="100px" width="100px" alt="cheese" />
-            <label htmlFor="cheese">Cheese</label>
+            <img src={cheese} height='100px' width='100px' alt='cheese' />
+            <label htmlFor='cheese'>Cheese</label>
           </div>
         </div>
       </div>
